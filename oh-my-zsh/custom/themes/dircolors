@@ -1,0 +1,144 @@
+########################################################################
+##                               - NOTICE -
+##                           AT&T Proprietary
+##                 Use Pursuant to Company Instructions
+########################################################################
+##
+##              Name      : .dircolors
+##              Author    : Devin Richards
+##              Date      : 11/13/96
+##              Purpose   : Setup colors for dircolros and GNU ls
+##
+##              Note      : Here are the colors:
+##                          Attribute codes:
+##                            00=none
+##                            01=bold
+##                            04=underscore
+##                            05=blink
+##                            07=reverse
+##                            08=concealed
+##                          Text color codes:
+##                            30=black
+##                            31=red
+##                            32=green
+##                            33=yellow
+##                            34=blue
+##                            35=magenta
+##                            36=cyan
+##                            37=white
+##                          Background color codes:
+##                            40=black
+##                            41=red
+##                            42=green
+##                            43=yellow
+##                            44=blue
+##                            45=magenta
+##                            46=cyan
+##                            47=white
+##
+########################################################################
+##
+##  $Id: .dircolors,v 1.2 1997/08/21 12:33:01 devin Exp $
+##
+########################################################################
+
+
+#
+# Specify termtype for color
+
+TERM console
+TERM xterm
+TERM vt100
+TERM cygwin
+TERM rxvt-cygwin-native
+
+
+#
+# Defaults
+
+NORMAL	00
+FILE	00
+DIR		33
+LINK	36
+FIFO	40;35
+SOCK	35
+BLK		40;33;01
+CHR		40;33;01
+EXEC	32
+OTHER_WRITABLE	04;33
+
+
+#
+# Executables (DOS)
+
+.exe 32
+
+
+#
+# Archives
+
+.tar	31
+.zip	31
+.Z		31
+.gz		31
+.tgz	31
+.jar	31
+
+
+#
+# Images
+
+.jpg	35
+.gif	35
+.ras	35
+.bmp	35
+.ppm	35
+.xbm	35
+.bm		35
+.xpm	35
+.pm		35
+.png    35
+
+
+#
+# Movies
+
+.mpg	43;34
+.avi	43;34
+.qt		43;34
+.mov	43;34
+
+
+#
+# Audio
+
+.au		42;34
+.wav	42;34
+
+
+#
+# Text files
+
+.ps		37
+.rtf	37
+.txt	37
+.doc	37
+.doc.backup	01;37
+.html	37
+.shtml	37
+.css	37
+.fm		37
+.fm.backup	01;37
+.fm.lck		41;37
+*fm.recover*	05;41;37 #doesn't work yet
+.java	37
+.sql	37
+.class	36
+
+
+#
+# Core Dump!
+
+*core 41;33
+
+
