@@ -1,7 +1,7 @@
 #
 # Custom setup
 
-alias mark="banner $(date +%T); $*"
+alias mark="figlet -f big -Wc \$(date +%T); \$*"
 alias ls='ls -FC --color=auto'
 export VISUAL=vim
 export EDITOR=vim
