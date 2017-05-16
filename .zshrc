@@ -52,6 +52,7 @@ ZSH_THEME="devin"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git git-flow-avh docker docker-compose )
+# zsh-navigation-tools
 
 source $ZSH/oh-my-zsh.sh
 
