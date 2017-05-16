@@ -1,5 +1,6 @@
 #!/bin/bash
 
+yum install -y epel-release
 yum install -y git wget yum-utils net-tools kernel-headers kernel-devel gcc zsh vim figlet
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
