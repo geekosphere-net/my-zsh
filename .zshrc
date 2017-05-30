@@ -58,11 +58,3 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export EDITOR='vim'
-export VISUAL='vim'
-
-#Bluemix config
-[[ -f /usr/local/Bluemix/bx/zsh_autocomplete ]] && source /usr/local/Bluemix/bx/zsh_autocomplete
-[[ -f ~/.ssh/bluemix.json ]] &&  export BLUEMIX_API_KEY=$(grep apiKey ~/.ssh/bluemix.json | awk -F\" '{print $4}')
-
-
