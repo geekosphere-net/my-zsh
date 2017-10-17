@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # setup basics
-sudo apt install -y wget curl net-tools zsh vim git git-flow apt-transport-https ca-certificates software-properties-common sysvbanner figlet
+sudo apt-get update
+sudo apt install -y wget curl net-tools zsh vim git git-flow apt-transport-https ca-certificates software-properties-common sysvbanner figlet 
 
 # setup OhMyZsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
